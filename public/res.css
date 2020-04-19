@@ -1,0 +1,136 @@
+img{
+    height: 200px;
+    width: 160px;
+    margin-left: 50px;
+    margin-top: -2%;
+    padding-bottom: -2%;
+}
+.prof{
+    display: flex;
+    background-color: aquamarine;
+    height: 150px;
+    width: 100%;
+    margin-top: 5%;
+}
+.name{
+    padding-left: 5%;
+    width: 100%;
+}
+body{
+    background-color:#243b55;
+}
+.personal{
+    margin-left: 2%;
+    padding-top: 2%;
+    color: ivory;
+    display: flex;
+    }
+    h3{
+        padding-left: 2%;
+        padding-top: 2%;
+        padding-right: 2%;
+        color: lightcyan;
+    }
+    .para{
+        padding-left: 7%;
+        padding-top: 2%;
+        font-family: inherit;
+        color: lightcyan;
+
+    }
+    .skill{
+        background-color: #243b55;
+        display: flex;
+        margin-left: 2%;
+        color: lightcyan;
+    }
+    .skills{
+        display:flex;
+        padding-left: 12%;
+    }
+    ul{
+        padding-left: 12%;
+        list-style-type: none;
+    }
+    li{
+        padding-left: 20px;
+        padding-bottom: 8px;
+        padding-right: 45px;
+    }
+    .exp{
+        color: lightcyan;
+        display: flex;
+        margin-left: 4%;
+     }
+     .timeline{
+         position: relative;
+         max-width: 1200px;
+         margin:0 auto;
+     }
+     .content{
+        padding: 20px 30px;
+         background-color: white;
+         position: relative;
+         border-radius: 6px;
+         color: #243b55; 
+         padding-top: 2%;
+         margin-top: 5%;
+     }
+     .timeline::after{
+         content: '';
+         position: absolute;
+         width:6px;
+         background-color: white;
+         top: 2%;
+         bottom: -10px;
+         left: -35px;
+         }
+         .container::after{  /*circle*/
+            content: '';
+             position: absolute;
+             width: 25px;
+             height: 25px;
+             right: -17px;
+             background-color: white;
+             border: 4px solid #ff9f55;
+             border-radius: 50%;
+             top: 15px;
+             z-index: 1;
+             }
+         .right::before{
+             content: '';
+             height: 0;
+             position: absolute;
+             top:22px;
+             width:0;
+             z-index:1;
+             left:-30px;
+             border:medium solid white;
+             border-width: 10px 10px 10px 0;
+             border-color:transparent white transparent transparent;
+         } 
+         .container::before{
+             left:60px;
+             border:medium solid white;
+             border-width: 10px 10px 10px 0;
+             border-color:transparent white transparent transparent;
+         }   
+.edu{
+    display:flex;
+    color: lightcyan;
+    margin-left: 2%;
+}
+table,th,td{
+    border: 2px solid cornsilk;
+    padding: 1%;
+}
+table{
+    width:700px;
+    margin-top: 40px;
+    margin-left: 15%;
+    text-align: center;
+
+}
+         
+     
+/*#19547b*/
